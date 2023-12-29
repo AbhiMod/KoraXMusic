@@ -1,0 +1,48 @@
+{
+    "name": "Sophia X Music",
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+    "logo": "https://graph.org/file/b7abd692eacb5ca13737e.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "sophia",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+    ],
+    "env": {
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
+      "BOT_TOKEN": {
+        "description": "Bot Token",
+        "value": "2027757649:AAEXHXne2pykl5PYa_12M1HiCsXE7PvTVnI",
+        "required": false
+      },
+      "STRING_SESSION": {
+        "description": "Asses Id",
+        "value": "BQA4Hk2eKxpI4QzgIF1mOWacT3GVdu15WmakRLsdrE9IheohqQyJDzvc9L8fV3bV9uWBvqt0u5AypEoE2suFbLKI5iJebyDd0oJHYVXXXOHqtjmENVVLO28wBSLxfNxbdplkfFWUSGK8jDFKOasPKuyitF3QsPD_y_SvQNi-sNXwbrvOC__-dJ7t8SfInWYH9MyyvFpRnJmqf2CRZy3ZjDqrUXcvqmSeQe6PHGY2tUas0pKDgyQ_DNKIxhDi3qoJBl1vo8rPlf_kFwPoNni2G7W82y6pxjx9FD_F7XtDJ-Lq9S68uIDsIRoehQ-vyG4WP9OJgYxFHRopjGGWNNdWExawAAAAAYlDsiEA",
+        "required": false
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Your heroku app name",
+        "value": "",
+        "required": false
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          },
+          {
+              "url": "heroku/nodejs"
+          },
+          {
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+          }
+      ],
+      "stack": "container"
+  }
