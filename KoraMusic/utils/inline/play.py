@@ -4,7 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 
 from KoraMusic.utils.formatters import time_to_seconds
 
-OWNER_ID = "6109442416"
+OWNER_ID = "2105971379"
 
 def track_markup(_, videoid, user_id, channel, fplay):
     buttons = [
